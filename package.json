@@ -1,0 +1,31 @@
+{
+  "name": "clown-cli",
+  "version": "1.0.0",
+  "description": "脚手架",
+  "main": "index.js",
+  "bin": {
+    "clown-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "UniqueCrownClown"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/generator": "^7.18.12",
+    "@babel/parser": "^7.18.11",
+    "@babel/traverse": "^7.18.11",
+    "@babel/types": "^7.18.10",
+    "chalk": "4.x",
+    "commander": "^9.4.0",
+    "ejs": "^3.1.8",
+    "fs-extra": "^10.1.0",
+    "inquirer": "8.1.1",
+    "ora": "5.x"
+  },
+  "keywords": ["clown-cli"],
+  "repository": "",
+  "homepage": ""
+}
